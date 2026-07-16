@@ -1,7 +1,7 @@
-import seed from "../../assets/images/plants/biji.jpg";
-import sprout from "../../assets/images/plants/tunas.jpg";
-import youngPlant from "../../assets/images/plants/pohon-muda.jpg";
-import tree from "../../assets/images/plants/pohon-tua.jpg";
+import seed from "../../assets/images/plants/biji.png";
+import sprout from "../../assets/images/plants/tunas.png";
+import youngPlant from "../../assets/images/plants/pohon-muda.png";
+import tree from "../../assets/images/plants/pohon-tua.png";
 
 const plants = [
   {
@@ -54,15 +54,13 @@ function PlantEvolution() {
                 className="text-center"
               >
 
-                <div className="w-32 h-32 mx-auto bg-white rounded-full shadow-lg border border-green-100 flex items-center justify-center">
-
-                  <img
+             <div className="w-32 h-32 mx-auto bg-[#F8FFF8] rounded-full flex items-center justify-center shadow-md">
+                <img
                     src={plant.image}
                     alt={plant.title}
-                    className="w-20 h-20 object-contain"
-                  />
-
-                </div>
+                    className="w-24 h-24 object-contain"
+                />
+             </div>
 
                 <h3 className="mt-8 text-2xl font-bold text-green-700">
                   {plant.title}
