@@ -1,6 +1,7 @@
 function FeatureCard({ icon, title, description }) {
     return (
-        <div className="
+        <div
+            className="
             bg-white
             rounded-3xl
             border border-green-100
@@ -10,7 +11,8 @@ function FeatureCard({ icon, title, description }) {
             duration-300
             hover:-translate-y-2
             hover:shadow-2xl
-        ">
+        "
+        >
 
             <div className="mb-6">
                 {icon}
@@ -23,10 +25,6 @@ function FeatureCard({ icon, title, description }) {
             <p className="text-gray-500 mt-4 leading-8">
                 {description}
             </p>
-
-            <button className="mt-8 text-green-600 font-semibold hover:underline">
-                Learn More →
-            </button>
 
         </div>
     );
