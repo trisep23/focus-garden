@@ -1,11 +1,9 @@
 function Dashboard() {
-    return (
-        <div className="min-h-screen bg-green-100 flex items-center justify-center">
-            <h1 className="text-5xl font-bold text-green-700">
-                🌱 Dashboard
-            </h1>
-        </div>
-    );
+  return (
+    <div className="min-h-screen flex items-center justify-center text-4xl font-bold">
+      Dashboard
+    </div>
+  );
 }
 
 export default Dashboard;
